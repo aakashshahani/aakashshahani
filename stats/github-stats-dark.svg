@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="246" viewBox="0 0 460 246" role="img">
+  <rect x="0.5" y="0.5" width="459" height="245" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <text x="25" y="36" fill="#e8c37a" font-size="17" font-weight="700" font-family="Segoe UI, Arial">GitHub stats</text>
+  <text x="25" y="66" fill="#8b949e" font-size="13" font-family="Segoe UI, Arial">
+    <tspan fill="#c9d1d9" font-weight="600">6</tspan> repos
+    &#160;&#160;·&#160;&#160; <tspan fill="#c9d1d9" font-weight="600">0</tspan> stars
+    &#160;&#160;·&#160;&#160; <tspan fill="#c9d1d9" font-weight="600">1</tspan> followers
+  </text>
+  <text x="25" y="88" fill="#8b949e" font-size="12" font-weight="600" font-family="Segoe UI, Arial" letter-spacing="1">MOST USED LANGUAGES</text>
+  <rect x="25" y="96" width="410" height="9" rx="4.5" fill="#161b22"/>
+  <clipPath id="r"><rect x="25" y="96" width="410" height="9" rx="4.5"/></clipPath>
+  <g clip-path="url(#r)"><rect x="25.0" y="96" width="231.5" height="9" fill="#3572A5"/><rect x="256.5" y="96" width="168.9" height="9" fill="#3178c6"/><rect x="425.4" y="96" width="4.9" height="9" fill="#563d7c"/><rect x="430.3" y="96" width="1.8" height="9" fill="#f1e05a"/><rect x="432.1" y="96" width="1.5" height="9" fill="#384d54"/><rect x="433.6" y="96" width="0.5" height="9" fill="#e34c26"/><rect x="434.1" y="96" width="0.5" height="9" fill="#427819"/><rect x="434.6" y="96" width="0.4" height="9" fill="#89e051"/></g>
+  
+      <circle cx="30" cy="128" r="5" fill="#3572A5"/>
+      <text x="41" y="132" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">Python</text>
+      <text x="218" y="132" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">56.5%</text>
+      <circle cx="235" cy="128" r="5" fill="#3178c6"/>
+      <text x="246" y="132" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">TypeScript</text>
+      <text x="423" y="132" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">41.2%</text>
+      <circle cx="30" cy="152" r="5" fill="#563d7c"/>
+      <text x="41" y="156" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">CSS</text>
+      <text x="218" y="156" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">1.2%</text>
+      <circle cx="235" cy="152" r="5" fill="#f1e05a"/>
+      <text x="246" y="156" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">JavaScript</text>
+      <text x="423" y="156" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">0.4%</text>
+      <circle cx="30" cy="176" r="5" fill="#384d54"/>
+      <text x="41" y="180" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">Dockerfile</text>
+      <text x="218" y="180" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">0.4%</text>
+      <circle cx="235" cy="176" r="5" fill="#e34c26"/>
+      <text x="246" y="180" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">HTML</text>
+      <text x="423" y="180" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">0.1%</text>
+      <circle cx="30" cy="200" r="5" fill="#427819"/>
+      <text x="41" y="204" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">Makefile</text>
+      <text x="218" y="204" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">0.1%</text>
+      <circle cx="235" cy="200" r="5" fill="#89e051"/>
+      <text x="246" y="204" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">Shell</text>
+      <text x="423" y="204" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">0.1%</text>
+</svg>
