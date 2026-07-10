@@ -2,10 +2,12 @@ name: 3d contrib
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 4 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
+
+concurrency:
+  group: 3d
+  cancel-in-progress: true
 
 jobs:
   build:

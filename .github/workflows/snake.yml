@@ -2,10 +2,12 @@ name: generate snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 3 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -14,17 +16,14 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: generate snake game from contribution graph
-        uses: Platane/snk@v3
+      - uses: Platane/snk@v3
         id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-
-      - name: push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
