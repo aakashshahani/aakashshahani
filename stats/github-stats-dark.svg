@@ -9,26 +9,26 @@
   <text x="25" y="88" fill="#8b949e" font-size="12" font-weight="600" font-family="Segoe UI, Arial" letter-spacing="1">MOST USED LANGUAGES</text>
   <rect x="25" y="96" width="410" height="9" rx="4.5" fill="#161b22"/>
   <clipPath id="r"><rect x="25" y="96" width="410" height="9" rx="4.5"/></clipPath>
-  <g clip-path="url(#r)"><rect x="25.0" y="96" width="226.8" height="9" fill="#3572A5"/><rect x="251.8" y="96" width="173.5" height="9" fill="#3178c6"/><rect x="425.3" y="96" width="5.0" height="9" fill="#563d7c"/><rect x="430.4" y="96" width="1.7" height="9" fill="#f1e05a"/><rect x="432.1" y="96" width="1.5" height="9" fill="#384d54"/><rect x="433.6" y="96" width="0.6" height="9" fill="#e34c26"/><rect x="434.1" y="96" width="0.5" height="9" fill="#427819"/><rect x="434.6" y="96" width="0.4" height="9" fill="#89e051"/></g>
+  <g clip-path="url(#r)"><rect x="25.0" y="96" width="237.2" height="9" fill="#3572A5"/><rect x="262.2" y="96" width="162.9" height="9" fill="#3178c6"/><rect x="425.1" y="96" width="5.3" height="9" fill="#563d7c"/><rect x="430.3" y="96" width="1.6" height="9" fill="#384d54"/><rect x="431.9" y="96" width="1.6" height="9" fill="#f1e05a"/><rect x="433.5" y="96" width="0.6" height="9" fill="#e34c26"/><rect x="434.1" y="96" width="0.5" height="9" fill="#427819"/><rect x="434.6" y="96" width="0.4" height="9" fill="#89e051"/></g>
   
       <circle cx="30" cy="128" r="5" fill="#3572A5"/>
       <text x="41" y="132" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">Python</text>
-      <text x="218" y="132" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">55.3%</text>
+      <text x="218" y="132" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">57.9%</text>
       <circle cx="235" cy="128" r="5" fill="#3178c6"/>
       <text x="246" y="132" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">TypeScript</text>
-      <text x="423" y="132" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">42.3%</text>
+      <text x="423" y="132" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">39.7%</text>
       <circle cx="30" cy="152" r="5" fill="#563d7c"/>
       <text x="41" y="156" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">CSS</text>
-      <text x="218" y="156" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">1.2%</text>
-      <circle cx="235" cy="152" r="5" fill="#f1e05a"/>
-      <text x="246" y="156" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">JavaScript</text>
+      <text x="218" y="156" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">1.3%</text>
+      <circle cx="235" cy="152" r="5" fill="#384d54"/>
+      <text x="246" y="156" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">Dockerfile</text>
       <text x="423" y="156" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">0.4%</text>
-      <circle cx="30" cy="176" r="5" fill="#384d54"/>
-      <text x="41" y="180" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">Dockerfile</text>
+      <circle cx="30" cy="176" r="5" fill="#f1e05a"/>
+      <text x="41" y="180" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">JavaScript</text>
       <text x="218" y="180" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">0.4%</text>
       <circle cx="235" cy="176" r="5" fill="#e34c26"/>
       <text x="246" y="180" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">HTML</text>
-      <text x="423" y="180" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">0.1%</text>
+      <text x="423" y="180" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">0.2%</text>
       <circle cx="30" cy="200" r="5" fill="#427819"/>
       <text x="41" y="204" fill="#c9d1d9" font-size="13" font-family="Segoe UI, Arial">Makefile</text>
       <text x="218" y="204" fill="#8b949e" font-size="12" text-anchor="end" font-family="Segoe UI, Arial">0.1%</text>
