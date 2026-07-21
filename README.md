@@ -12,7 +12,7 @@
 
 ---
 
-I build production-grade ML and data systems: real-time streaming pipelines, agentic RAG platforms, fraud models, and AI agents that reason under uncertainty. I care about rigor, honest evaluation, leakage-free pipelines, and tests that fail on the right things.
+I build production-grade ML and data systems: real-time streaming pipelines, batch data lakehouses on AWS, agentic RAG platforms, fraud models, and AI agents that reason under uncertainty. I care about rigor, honest evaluation, leakage-free pipelines, and tests that fail on the right things.
 
 - 🔭 **Now:** ML Research Assistant at the CSSAI Lab, classifying negotiation behavior with RoBERTa, GPT, and LLaMA 3 (validated against human labels at κ 0.76).
 - 🛠️ **Building:** [ScholarLens](https://github.com/aakashshahani/ScholarLens) (agentic research platform) and [PokerSim](https://github.com/aakashshahani/pokersim) (AI agents under hidden information).
@@ -33,16 +33,20 @@ I build production-grade ML and data systems: real-time streaming pipelines, age
 ![XGBoost](https://img.shields.io/badge/-XGBoost-337AB7?style=flat-square)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 <br/>
+![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![dbt](https://img.shields.io/badge/-dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![Apache Iceberg](https://img.shields.io/badge/-Apache%20Iceberg-1F97C0?style=flat-square&logo=apache&logoColor=white)
 ![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 ![Spark](https://img.shields.io/badge/-Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 <br/>
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Athena](https://img.shields.io/badge/-Athena-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+<br/>
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
 ## 📌 Featured projects
@@ -50,6 +54,7 @@ I build production-grade ML and data systems: real-time streaming pipelines, age
 | Project | Description |
 | :------ | :---------- |
 | **[ScholarLens](https://github.com/aakashshahani/ScholarLens)** · [live](https://scholarlens-research.vercel.app) | Agentic RAG platform that flags contradictions across papers (macro-F1 0.788), cutting ~90% of LLM calls. FastAPI · Next.js · pgvector. |
+| **[UrbanFlow](https://github.com/aakashshahani/urbanflow)** | Urban-mobility **data lakehouse**: Airflow → Apache Iceberg on S3 → dbt star schema → Athena. Cut Athena bytes scanned 97% via partition pruning; deployed on AWS with Terraform. |
 | **[PokerSim](https://github.com/aakashshahani/pokersim)** | Platform for evaluating AI agents under hidden information. Tool-calling agents, honest bb/100 + Elo eval, a live web table. |
 | **[TradePulse](https://github.com/aakashshahani/tradepulse)** | Real-time streaming pipeline: live trades → Kafka → Spark → OHLC candles with exactly-once guarantees. |
 | **[FraudGuard](https://github.com/aakashshahani/fraudguard)** | Leakage-free fraud ML on 590K transactions, ~15× base-rate PR-AUC. XGBoost · SHAP · FastAPI. |
